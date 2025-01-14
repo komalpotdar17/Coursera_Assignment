@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="B:/Coursera_portfolio/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Komal Potdar</h1>
+                <p>Phone: 123-456-7890</p>
+                <p>Email: komalp@gmail.com</p>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project Details</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div>
+                <h3>Hi, I'm Komal!</h3>
+                <p>
+                    I am a passionate technology enthusiast with expertise in software development, algorithms, and AI research, particularly in areas like BitNet for large-scale language models. Currently involved in building innovative systems and solving complex problems, I am also an active member of the ISA VIT Pune Student Section, where I contribute to coordinator recruitment and communication. I thrive in dynamic environments and am committed to continuous learning and collaboration, aiming to make a meaningful impact through my work 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill">
+                <img src="html-icon.png" alt="HTML Icon">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="css-icon.png" alt="CSS Icon">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="javascript-icon.png" alt="JavaScript Icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="react-icon.png" alt="React Icon">
+                <p>React</p>
+            </div>
+            <div class="skill">
+                <img src="nodejs-icon.png" alt="Node.js Icon">
+                <p>Node.js</p>
+            </div>
+            <div class="skill">
+                <img src="bootstrap-icon.png" alt="Bootstrap Icon">
+                <p>Bootstrap</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Project Details</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>Created a personal portfolio website to showcase my skills, projects, and recommendations. This project utilized HTML, CSS, and JavaScript for front-end development. It features a responsive design that adapts to different screen sizes, a navigation bar, and smooth scrolling effects. The website includes sections such as About Me, Project Details, Skills, and Recommendations.</p>
+            </div>
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <p>Developed a fully functional e-commerce website for a fictional clothing store. It features product listings, a shopping cart, and a checkout page. The site uses HTML for structure, CSS for styling, and JavaScript for dynamic content like adding/removing items from the cart. This project also includes a simple admin panel for managing products and orders.</p>
+            </div>
+            <div class="project">
+                <h3>Weather Forecast App</h3>
+                <p>Built a weather forecast application that allows users to enter a city name and get real-time weather information. The app uses the OpenWeatherMap API to fetch weather data, and JavaScript is used to display the information dynamically. The app is styled with CSS and is fully responsive, making it usable on both mobile and desktop devices.</p>
+            </div>
+        </div>
+    </section>
+    <br> <br>
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="recommendation-list">
+            <div class="recommendation">
+                <p>"Great work on the projects! You are very talented."</p>
+                <p>- Client 1</p>
+            </div>
+            <div class="recommendation">
+                <p>"I am impressed with your coding skills and dedication."</p>
+                <p>- Client 2</p>
+            </div>
+            <div class="recommendation">
+                <p>"Fantastic results! Keep up the great work!"</p>
+                <p>- Client 3</p>
+            </div>
+        </div>
+        <div class="leave-recommendation">
+            <h3>Leave a Recommendation</h3>
+            <textarea id="new-recommendation" placeholder="Your recommendation..."></textarea>
+            <button onclick="addRecommendation()">Submit</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
